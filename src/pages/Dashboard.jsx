@@ -98,6 +98,16 @@ const Dashboard = () => {
           />
         </div>
 
+        {/* Inventory Management Link */}
+        <div className="mb-8">
+          <button
+            onClick={() => window.location.href = '/admin/inventory'}
+            className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors font-medium"
+          >
+            Gestión de Inventario
+          </button>
+        </div>
+
         {/* Critical Stock Alerts */}
         <div className="mb-8">
           <h3 className="text-xl font-semibold text-gray-900 mb-4">
